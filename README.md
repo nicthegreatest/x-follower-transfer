@@ -1,5 +1,5 @@
 # x-follower-transfer
-A python script to transfer followed accounts from one X account to another.
+A python script to transfer followed accounts from one X account to another. Exports list of accounts the old account is following to a CSV called following.csv - and uses the same CSV to upload to the new account.
 
 ### Dependencies
 tweepy for this to work & tqdm for a progress bar.
@@ -10,9 +10,7 @@ tweepy for this to work & tqdm for a progress bar.
 - Create a new project on both your old acc (to transfer FROM) and new acc (to transfer TO).
 - Copy the API keys and Access Tokens etc
 - For Callback URI / Redirect URL Requirements, you can use the URL http://127.0.0.1:port/callback with an open port of your choice.
-
-### Input your keys to the script
-- Line's 10 to 20 will be where you need to put in your API keys and Access Token Secrets etc.
+- Line's 10 to 20 in the .py code will be where you need to put in your API keys and Access Token Secrets etc.
 
 ### Run
 > python3 transfer_following.py
