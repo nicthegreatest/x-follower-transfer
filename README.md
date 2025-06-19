@@ -1,7 +1,8 @@
 # x-follower-transfer
 A python script to transfer followed accounts from one X account to another.
 
-// Dependencies - tweepy for this to work & tqdm for a progress bar.
+# Dependencies
+tweepy for this to work & tqdm for a progress bar.
 pip3 install tweepy tqdm --user
 
 // Create an API key @ https://developer.x.com/
