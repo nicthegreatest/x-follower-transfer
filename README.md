@@ -11,13 +11,13 @@ tweepy for this to work & tqdm for a progress bar.
 - Copy the API keys and Access Tokens etc
 - For Callback URI / Redirect URL Requirements, you can use the URL http://127.0.0.1:port/callback with an open port of your choice.
 
-// Input your keys to the script
+### Input your keys to the script
 - Line's 10 to 20 will be where you need to put in your API keys and Access Token Secrets etc.
 
-// Run
-python3 transfer_following.py
+### Run
+> python3 transfer_following.py
 
-// Notes
+### Notes
 - Examine the define for export_following and follow_accounts (the meat in this sandwich).
 - There's a confirmation prompt - maybe check the CSV and make any changes or omittances before you commit.
 - The rate is set at 1 follow per 2 seconds to make sure it doesn't hit the rate limit (50 per hour or 1 per 1.72 sec)
