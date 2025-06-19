@@ -10,7 +10,7 @@ tweepy for this to work & tqdm for a progress bar.
 - Create a new project on both your old acc (to transfer FROM) and new acc (to transfer TO).
 - Copy the API keys and Access Tokens etc
 - For Callback URI / Redirect URL Requirements, you can use the URL http://127.0.0.1:port/callback with an open port of your choice.
-- Line's 10 to 20 in the .py code will be where you need to put in your API keys and Access Token Secrets etc.
+- Lines 12 to 22 in transfer_following.py will be where you need to put in your API keys and Access Token Secrets etc.
 
 ### Run
 > python3 transfer_following.py
