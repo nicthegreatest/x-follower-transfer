@@ -8,7 +8,7 @@ Old Account (GET /2/users/me): Hit a 24-hour limit of 25 requests for certain us
 New Account (POST /2/users/:id/following): An extremely strict limit of just 1 follow per roughly 15-minute window. To follow even a small list of 5 accounts, that would take over an hour, and for a larger list, it becomes impractical (e.g., 100 followers would take 25 hours of continuous script running).
 These limits effectively make automated mass following/transferring of accounts unfeasible for most users without upgrading to a paid API tier. The $200/month "Basic" tier is likely what's needed for reasonable access... extortion.
 
-##Is it worth it?
+## Is it worth it?
 
 Using the API under these free tier restrictions is likely not worth the effort or the potential frustration.
 
