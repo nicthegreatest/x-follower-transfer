@@ -1,11 +1,12 @@
 # x-follower-transfer
 A python script to transfer followed accounts from one X account to another.
 
-# Dependencies
+### Dependencies
 tweepy for this to work & tqdm for a progress bar.
-pip3 install tweepy tqdm --user
 
-// Create an API key @ https://developer.x.com/
+> pip3 install tweepy tqdm --user
+
+### Create an API key @ https://developer.x.com/
 - Create a new project on both your old acc (to transfer FROM) and new acc (to transfer TO).
 - Copy the API keys and Access Tokens etc
 - For Callback URI / Redirect URL Requirements, you can use the URL http://127.0.0.1:port/callback with an open port of your choice.
