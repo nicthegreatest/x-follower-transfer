@@ -18,4 +18,3 @@ tweepy for this to work & tqdm for a progress bar.
 ### Notes
 - Examine the define for export_following and follow_accounts (the meat in this sandwich).
 - There's a confirmation prompt - maybe check the CSV and make any changes or omittances before you commit.
-- The rate is set at 1 follow per 2 seconds to make sure it doesn't hit the rate limit (50 per hour or 1 per 1.72 sec)
