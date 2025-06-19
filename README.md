@@ -23,6 +23,16 @@ Using the API under these free tier restrictions is likely not worth the effort 
 
 Unless you're willing to pay for a higher API tier, pursuing this via the X API is likely to be a continuous battle against highly restrictive rate limits.
 
+## Potential workaround
+
+Create a following.csv (or download the one from the fork here). Then comment out LARGE parts of the main() function in transfer_following.py to stop the initial auth of the old account.
+
+Make sure the keys for your new account are updated by checking echo $NEW_API_KEY etc
+
+Run transfer_following.py and watch it take 15mins PER follow like the slow piece of shit the free-tier API is.
+
+Be amazed that someone wrote up script and readme for this.
+
 ### x-follower-transfer
 A python script to transfer followed accounts from one X account to another. Exports list of accounts the old account is following to a CSV called following.csv - and uses the same CSV to upload to the new account.
 
