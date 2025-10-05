@@ -1,6 +1,8 @@
 # x-follower-transfer
 A python script to transfer followed accounts from one X account to another. Exports list of accounts the old account is following to a CSV called following.csv - and uses the same CSV to upload to the new account.
 
+NOTE: The API is prohibitively expensive. You'll need to fork out $200 a month for this to run properly - the free tier API will run in to issues. Probably due to spam/bot protection.
+
 ### Dependencies
 tweepy for this to work & tqdm for a progress bar.
 
